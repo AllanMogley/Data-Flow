@@ -1,2 +1,2 @@
 # A-PROJECT-TREADSTONE
-Download Stocks data from yfinance, Transform and load ontp PostGre DB
+Download Stocks data from yfinance, Transform and load onto PostGre DataBase
