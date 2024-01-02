@@ -40,11 +40,11 @@ seeds:
   tredstone:
     Data_In:
       +column_types:
-        Date : date,
+        Date : date
         Open : numeric
-        High : numeric,
-        Low : numeric,
-        Close : numeric,
-        AdjClose : numeric,
-        Volume : numeric,
+        High : numeric
+        Low : numeric
+        Close : numeric
+        AdjClose : numeric
+        Volume : numeric
         company_name : varchar(20)

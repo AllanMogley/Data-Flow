@@ -1,6 +1,6 @@
-# ** A-PROJECT-TREADSTONE 💎**
+# ** PROJECT-TREDSTONE 💎**
 
-### Download Stocks data from y-finance, Transform and load onto PostGre DataBase
+### Download Stocks data from y-finance, Transform and load onto a DataBase
 
 
 
@@ -12,4 +12,4 @@
 
 - PostgreSQL 
 
-- Data Build Tool (DBT)
+- Data Build Tool (DBT) 
