@@ -37,8 +37,8 @@ models:
       +materialized: view
 
 seeds:
-  tredstone:
-    Data_In:
+  tredstone: # Project name
+    Data_In: # Data path and name
       +column_types:
         Date : date
         Open : numeric
