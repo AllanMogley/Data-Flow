@@ -35,3 +35,16 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+seeds:
+  tredstone:
+    Data_In:
+      +column_types:
+        Date : date,
+        Open : numeric
+        High : numeric,
+        Low : numeric,
+        Close : numeric,
+        AdjClose : numeric,
+        Volume : numeric,
+        company_name : varchar(20)

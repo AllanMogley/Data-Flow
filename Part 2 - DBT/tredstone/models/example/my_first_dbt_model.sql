@@ -11,10 +11,10 @@
 
 with source_data as (
 
-    select 2000 as srid
-    union all
-    select null as srid
-
+    -- select 2000 as srid
+    -- union all
+    -- select null as srid
+    copy Data_Raw from 'E:\Codes\01 - PROJECTS\01 - Project TredStone\A-PROJECT-TREADSTONE\Part 1 - Download Data\Data_In.csv' delimiter ',' csv header;
 )
 
 select *
