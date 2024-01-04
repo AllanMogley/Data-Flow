@@ -2,19 +2,10 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
+  - name: companies
     description: "A starter dbt model"
     database: TredStone
     schema: Flat_Tables
-    columns:
-      - name: company_name
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
     columns:
       - name: company_name
         description: "The primary key for this table"
