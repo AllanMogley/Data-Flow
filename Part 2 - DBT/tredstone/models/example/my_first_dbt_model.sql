@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    select company_name as srid from {{source('my_source', 'company_name')}}
+    select company_name as srid from {{source('src1', 'Data_In')}} where company_name = 'APPLE'
     union all
     select null as srid
 )

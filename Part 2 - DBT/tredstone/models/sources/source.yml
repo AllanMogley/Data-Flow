@@ -1,7 +1,9 @@
 version: 2
 
 sources:
-  - name: my_source
+  - name: src1
     schema: Flat_Tables 
+    database: TredStone
+
     tables:
       - name: Data_In 

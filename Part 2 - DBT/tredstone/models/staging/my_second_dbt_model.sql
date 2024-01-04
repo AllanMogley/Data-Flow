@@ -3,5 +3,7 @@
 
 select *
 from {{ ref('my_first_dbt_model') }}
-where srid = APPLE
+where srid = 'company_name'
+
+
 
