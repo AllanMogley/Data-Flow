@@ -4,8 +4,8 @@ version: 2
 models:
   - name: companies
     description: "A starter dbt model"
-    database: TredStone
-    schema: Flat_Tables
+    database: tredstone
+    schema: flattables
     columns:
       - name: company_name
         description: "The primary key for this table"

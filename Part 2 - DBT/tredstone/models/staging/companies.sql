@@ -11,9 +11,10 @@
 
 with source_data as (
 
-    select company_name as srid from {{source('src1', 'Data_In')}} where company_name = 'APPLE'
+    select company_name as srid from {{source('src1', 'Data_In')}}
     union all
     select null as srid
+
 )
 
 select *
@@ -25,3 +26,13 @@ from source_data
 */
 
 -- where id is not null
+
+    --   +column_types:
+    --     Date : date
+    --     Open : numeric
+    --     High : numeric
+    --     Low : numeric
+    --     Close : numeric
+    --     AdjClose : numeric
+    --     Volume : numeric
+    --     company_name : varchar(20)

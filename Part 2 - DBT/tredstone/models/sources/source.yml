@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: src1
-    schema: Flat_Tables 
-    database: TredStone
+    schema: flattables
+    database: tredstone
 
     tables:
       - name: Data_In 
