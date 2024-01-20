@@ -7,13 +7,18 @@
     Try changing "table" to "view" below
 */
 
-{{ config(materialized='table') }}
+{{ config(
+    materialized='table',
+    schema="flattables") }}
 
 with source_data as (
 
-    select company_name as company, "Date" as date from {{source('src1', 'Data_In')}}
-    -- union all
-    -- select null as company
+    select company_name as company,
+    "Date" as date
+    
+    from "Data_In"
+    -- from {{source('src1', 'Data_In')}}
+    
 
 )
 
