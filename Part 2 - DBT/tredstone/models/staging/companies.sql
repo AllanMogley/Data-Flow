@@ -16,8 +16,7 @@ with source_data as (
     select company_name as company,
     "Date" as date
     
-    from "Data_In"
-    -- from {{source('src1', 'Data_In')}}
+    from {{source('src1', 'Data_In')}}
     
 
 )
